@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/menu.css">
+    <title>Zapateria</title>
+    <div class="glitch" data-text="SHOES">SHOES</div>
+
+</head>
+
+<body>
+    <nav>
+        <h2>Menu de Opciones</h2>
+        <input id="toggle" type="checkbox" checked>
+        <ul>
+            <li><a href="Controller/ZapatosController.php">Mostrar Inventario</a></li>
+            <li><a href="View/VistaAgregarZapato.php">Agregar Producto</a></li>
+            <li><a href="View/VistaQuitarZapato.php">Quitar Producto</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

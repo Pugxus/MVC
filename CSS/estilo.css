@@ -1,0 +1,90 @@
+body{
+    background: #FFE6E6;
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form, .inicio {
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin: calc(25% + 100px);
+	margin-top: 70px;    
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+    margin:0px auto;
+    display:block;
+	margin-top: 12px;
+	font-size: 16px;
+}
+
+input[type='submit'], .enlace{
+	background-color: #7f65af;
+	color: #fff;
+	width: calc(60% - 20px);
+	margin-top: 22px;
+	border: none;
+}
+.ok {
+    text-align: center;
+    margin: 0px auto;
+    width: 80%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff
+}
+
+.bad {
+    text-align: center;
+    margin: 0px auto;
+    width: 80%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff;
+}
+#main-container{
+    margin: 150px auto;
+    width: 600px;
+}
+
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 20px;
+}
+.enlaceInventario{
+    background-color: #7f65af;
+    color: #fff;
+    height: 40px;
+    width: calc(80% - 20px);
+    margin: 0 10%;
+    margin-top: 22px;
+    border: none;
+}
+
+thead{
+    font-weight: bold;
+    background-color: #6155A6;
+    border: solid 5px #31395a;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #A685E2;
+    color: white;
+}
